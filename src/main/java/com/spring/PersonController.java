@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.spring.jpa.dao.PersonRepository;
 import com.spring.model.Person;
 import com.spring.service.PersonService;
 
@@ -18,10 +17,6 @@ public class PersonController {
 	
 	@Autowired
 	private PersonService personService;
-	
-	@Autowired
-	PersonRepository personRepository;
-	
 	
 	@Value("${url}")
 	String url;
