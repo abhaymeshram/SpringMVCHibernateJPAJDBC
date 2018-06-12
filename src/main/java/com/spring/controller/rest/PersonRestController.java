@@ -1,4 +1,4 @@
-package com.spring;
+package com.spring.controller.rest;
 
 import java.util.List;
 import java.util.Map;
