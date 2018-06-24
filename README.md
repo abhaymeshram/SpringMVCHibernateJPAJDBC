@@ -11,3 +11,8 @@ a) JPA : http://localhost:8080/SpringMVCHibernateJPAJDBC/getEmployeeByJPA
 b) Hibernate: http://localhost:8080/SpringMVCHibernateJPAJDBC/getEmployeeByHibernate
 
 c) JDBC: http://localhost:8080/SpringMVCHibernateJPAJDBC/getEmployeeByJDBC
+
+URL for dyanamic meta data loader: 
+
+http://localhost:8080/SpringMVCHibernateJPAJDBC/static/50
+
