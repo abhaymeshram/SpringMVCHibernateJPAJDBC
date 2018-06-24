@@ -30,7 +30,7 @@ public class PersonController {
 		System.out.println("Database URL: " + url);
 		return "person";
 	}
-	
+		
 	//For add and update person both
 	@RequestMapping(value= "/person/add", method = RequestMethod.POST)
 	public String addPerson(@ModelAttribute("person") Person p){
